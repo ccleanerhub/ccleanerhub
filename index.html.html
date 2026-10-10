@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/67810842af5bfec1dbe9ae27/1ih80ghr4';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PC Cleaner | Performance & Information</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #343a43;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    height: 100px;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    border-bottom: 1px solid #e5e8ed;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #30343b;
+    white-space: nowrap;
+}
+
+.logo-icon {
+    display: inline-flex;
+    width: 37px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #168be9, #ed443a 70%, #ffb638);
+    color: #fff;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav a {
+    color: #333840;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #2869e8;
+}
+
+.nav-call {
+    padding: 12px 18px;
+    border-radius: 25px;
+    background: #2869e8;
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+    min-height: 650px;
+    overflow: hidden;
+    position: relative;
+    background:
+        radial-gradient(ellipse at 50% 105%,
+        #eaf1ff 0%, #f5f8ff 37%, #ffffff 72%);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 1250px;
+    margin: auto;
+    padding: 65px 25px 90px;
+    text-align: center;
+}
+
+.eyebrow {
+    display: inline-block;
+    background: #edf2ff;
+    color: #2869e8;
+    padding: 9px 19px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    margin-bottom: 23px;
+}
+
+h1 {
+    max-width: 1050px;
+    margin: auto auto 24px;
+    font-size: clamp(38px, 5vw, 65px);
+    line-height: 1.12;
+    letter-spacing: -1.5px;
+    color: #343a43;
+}
+
+h1 span {
+    color: #3272ed;
+}
+
+.hero-description {
+    max-width: 850px;
+    margin: 0 auto 28px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #626975;
+}
+
+.benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.benefits span {
+    font-size: 15px;
+    color: #46505e;
+}
+
+.check {
+    color: #3272ed;
+    font-weight: bold;
+    margin-right: 8px;
+    font-size: 19px;
+}
+
+/* Main action buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.btn {
+    min-width: 220px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 19px 28px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .25s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 9px 25px #142d5924;
+}
+
+.btn-blue {
+    color: white;
+    background: #306bea;
+}
+
+.btn-orange {
+    color: #272d36;
+    background: #ffb900;
+}
+
+.platforms {
+    font-size: 14px;
+    color: #626975;
+    margin-bottom: 30px;
+}
+
+.platforms a {
+    color: #343a43;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Decorative background */
+.decor {
+    position: absolute;
+    pointer-events: none;
+    opacity: .7;
+}
+
+.decor-one {
+    width: 560px;
+    height: 560px;
+    border: 1px solid #edf2ff;
+    border-radius: 50%;
+    left: -250px;
+    bottom: -350px;
+}
+
+.decor-two {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #e9efff;
+    border-radius: 50%;
+    right: -230px;
+    bottom: -320px;
+}
+
+/* Features */
+.features-section {
+    max-width: 1200px;
+    padding: 75px 25px;
+    margin: auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    text-align: center;
+    color: #626975;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto 38px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.feature-card {
+    padding: 30px;
+    border: 1px solid #e7ebf2;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 5px 20px #162c5008;
+}
+
+.feature-icon {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #2869e8;
+}
+
+.feature-card h3 {
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.feature-card p {
+    color: #626975;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+/* Support area */
+.support-section {
+    padding: 60px 25px;
+    text-align: center;
+    background: #f4f7ff;
+}
+
+.support-section h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.support-section p {
+    max-width: 760px;
+    margin: 0 auto 24px;
+    color: #626975;
+    line-height: 1.8;
+}
+
+.official-link {
+    display: inline-block;
+    background: #306bea;
+    color: white;
+    padding: 15px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #222a38;
+    color: white;
+    text-align: center;
+    padding: 35px 22px;
+}
+
+footer p {
+    max-width: 900px;
+    margin: 12px auto 0;
+    font-size: 13px;
+    color: #d0d7e2;
+    line-height: 1.8;
+}
+
+/* Floating Call Now button */
+.floating-call {
+    position: fixed;
+    left: 20px;
+    bottom: 22px;
+    z-index: 99999;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #2869e8;
+    color: #fff;
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: 2px solid white;
+
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 5px 22px #00000035;
+    transition: .25s;
+}
+
+.floating-call:hover {
+    background: #174fc0;
+    transform: translateY(-3px);
+}
+
+.phone-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    color: #2869e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.phone-number {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+/* Responsive design */
+@media (max-width: 950px) {
+    header {
+        padding: 0 25px;
+    }
+
+    nav {
+        gap: 14px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero-content {
+        padding-top: 70px;
+    }
+
+    .features-grid {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        height: auto;
+        padding: 15px 18px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 13px 17px;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .nav-call {
+        padding: 8px 12px;
+    }
+
+    .hero {
+        min-height: auto;
+    }
+
+    .hero-content {
+        padding: 55px 20px 70px;
+    }
+
+    h1 {
+        font-size: 39px;
+        letter-spacing: -.8px;
+    }
+
+    .hero-description {
+        font-size: 17px;
+    }
+
+    .benefits {
+        gap: 13px 18px;
+    }
+
+    .benefits span {
+        font-size: 13px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 330px;
+        padding: 16px 20px;
+        font-size: 16px;
+    }
+
+    .features-section {
+        padding: 55px 18px;
+    }
+
+    .section-title {
+        font-size: 29px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .support-section {
+        padding: 45px 20px;
+    }
+
+    .support-section h2 {
+        font-size: 28px;
+    }
+
+    .floating-call {
+        left: 12px;
+        bottom: 13px;
+        padding: 10px 14px;
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .phone-icon {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <a href="#home" class="logo">
+        <span class="logo-icon">C</span>
+        CCleaner
+    </a>
+
+    <nav>
+        <a href="#home">For Home</a>
+        <a href="#business">For Business</a>
+        <a href="#features">Features</a>
+        <a href="#support">Support</a>
+        <a href="https://www.ccleaner.com/"
+           target="_blank" rel="noopener">Official Site</a>
+        <a href="tel:+18059960007" class="nav-call">Call Now</a>
+    </nav>
+</header>
+
+<main id="home">
+
+<section class="hero">
+    <div class="decor decor-one"></div>
+    <div class="decor decor-two"></div>
+
+    <div class="hero-content">
+
+        <div class="eyebrow">PC PERFORMANCE RESOURCES</div>
+
+        <h1>
+            Make your PC faster, free up space,
+            <br>and <span>fix glitches</span>
+        </h1>
+
+        <p class="hero-description">
+            Explore PC maintenance information, storage management,
+            performance tips, and troubleshooting resources for your computer.
+        </p>
+
+        <div class="benefits">
+            <span><b class="check">✓</b>Less clutter</span>
+            <span><b class="check">✓</b>More space</span>
+            <span><b class="check">✓</b>Better performance</span>
+            <span><b class="check">✓</b>Privacy resources</span>
+        </div>
+
+        <div class="buttons">
+            <a href="https://download-desktoplink.com/"
+               target="_blank" rel="noopener"
+               class="btn btn-blue">
+                Download Free
+            </a>
+
+            <a href="https://download-desktoplink.com/"
+               target="_blank" rel="noopener"
+               class="btn btn-orange">
+                Explore CCleaner
+            </a>
+        </div>
+
+        <div class="platforms">
+            Learn more about products for
+            <a href="https://download-desktoplink.com/">Windows</a>,
+            <a href="https://download-desktoplink.com/">Mac</a>,
+            and mobile devices.
+        </div>
+
+    </div>
+</section>
+
+<section class="features-section" id="features">
+
+    <h2 class="section-title">Keep Your PC Running Smoothly</h2>
+
+    <p class="section-description">
+        Explore useful computer maintenance resources and learn
+        about ways to manage storage and improve everyday performance.
+    </p>
+
+    <div class="features-grid">
+
+        <article class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>PC Performance</h3>
+            <p>
+                Learn about startup applications, background tasks,
+                and simple ways to maintain your computer.
+            </p>
+        </article>
+
+        <article class="feature-card" id="business">
+            <div class="feature-icon">▤</div>
+            <h3>Storage Management</h3>
+            <p>
+                Find ways to review temporary files, organize your
+                storage, and free up disk space.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <div class="feature-icon">✓</div>
+            <h3>Privacy & Maintenance</h3>
+            <p>
+                Learn about software updates, privacy settings,
+                and regular computer maintenance.
+            </p>
+        </article>
+
+    </div>
+</section>
+
+<section class="support-section" id="support">
+
+    <h2>Looking for Product Information?</h2>
+
+    <p>
+        This is an independent website template, not an official
+        CCleaner support page. The telephone number shown on this
+        page is supplied by the website owner and has not been
+        verified as an official CCleaner support number.
+        Visit the official website to verify product information
+        and support contact details.
+    </p>
+
+    <a href="https://download-desktoplink.com/"
+       target="_blank" rel="noopener"
+       class="official-link">
+        Visit Official CCleaner Website
+    </a>
+
+</section>
+
+</main>
+
+<footer>
+    <h3>PC Maintenance Information</h3>
+
+    <p>
+        This independent website template is not affiliated with,
+        endorsed by, or operated by CCleaner. CCleaner trademarks
+        belong to their respective owners.
+    </p>
+
+    <p>
+        Contact number displayed at the website owner's request:
+        1-805-996-0007. Its affiliation with CCleaner has not been verified.
+    </p>
+
+    <p>© 2026 Independent Website Template.</p>
+</footer>
+
+<!-- Floating Call Now button: Desktop + Mobile -->
+<a href="tel:+18059960007"
+   class="floating-call"
+   aria-label="Call 1-805-996-0007">
+
+    <span class="phone-icon">☎</span>
+
+    <span>
+        Call Now
+        <div class="phone-number">1-805-996-0007</div>
+    </span>
+
+</a>
+
+</body>
+</html>
